@@ -48,7 +48,7 @@ export default class Hero extends Component {
               <i className="bx bxl-facebook"></i>
             </a>
             <a
-              href="https://www.instagram.com/fikrifardana_"
+              href="https://www.instagram.com/cpasya_"
               className="instagram"
               target={"_blank"}
               rel={["noopener noreferrer"]}
