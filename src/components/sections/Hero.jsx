@@ -22,7 +22,7 @@ export default class Hero extends Component {
     return (
       <section
         id="hero"
-        style={{ backgroundImage: "url(/assets/img/trioJempol.jpg)" }}
+        style={{ backgroundImage: "url(/assets/img/streetViewlPasya.jpg)" }}
         className="d-flex flex-column justify-content-center"
       >
         <div className="container" data-aos="zoom-in" data-aos-delay="150">
@@ -48,7 +48,7 @@ export default class Hero extends Component {
               <i className="bx bxl-facebook"></i>
             </a>
             <a
-              href="https://www.instagram.com/cpasya_"
+              href="https://www.instagram.com/cpasya"
               className="instagram"
               target={"_blank"}
               rel={["noopener noreferrer"]}

@@ -55,14 +55,14 @@ export default class About extends Component {
             <div className="section-title">
               <h2>About</h2>
               <p>
-                Hello, I'm Pasya. My relationship with Technology started at a
-                senior high school, specifically when I play games almost every
-                time. Grateful, I became Programmer now who proficient in Full
-                Stack Developer for 3 years. And during that times, I really
-                enjoyed when developing Back End of the apps.
+                Hello, I'm Pasya. My relationship with Technology started when I
+                was in senior high school, specifically when I play games almost
+                every time. Grateful, I became Programmer now, that proficient
+                in UI/UX and Front-End Developer for a year. I really enjoyed
+                when designing/developing Front Page of the apps.
               </p>
             </div>
-
+            <br />
             <div className="row">
               <div className="col-lg-4">
                 <img
@@ -74,14 +74,15 @@ export default class About extends Component {
               <div className="col-lg-8 pt-4 pt-lg-0 content">
                 <h3>My Biography</h3>
                 <p className="">
-                  Let me introduce some facts about me first, as below :
+                  First of all let me introduce some facts about myself, as
+                  below :
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Age:</strong> <span>72</span>
+                        <strong>Age:</strong> <span>-</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
@@ -89,16 +90,16 @@ export default class About extends Component {
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>City:</strong> <span>East Java, Indonesia</span>
+                        <strong>City:</strong> <span>West Java, Indonesia</span>
                       </li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul>
-                      <li>
+                      {/* <li>
                         <i className="bi bi-chevron-right"></i>{" "}
                         <strong>Degree:</strong> <span>Bachelor</span>
-                      </li>
+                      </li> */}
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
                         <strong>Email:</strong>{" "}
@@ -127,16 +128,14 @@ export default class About extends Component {
                     </ul>
                   </div>
                 </div>
-                <p>
+                <p className="mt-5">
                   I also often buy some courses to levelling up my skill.
                   Perhaps some day, I can mastering DevOps Skills and others
-                  Back-End Technologies because I really love it. As a software
-                  engineer, I like to write code as a simply and functionally
-                  that perhaps can increase the performance for builded
-                  software. Also this is one of my experiences what I got during
-                  became software engineer. My goal is I can to be importan
-                  people in Technology Word, maybe cretae programming langunge
-                  or framework libraries that can help other developers.
+                  Back-End Technologies because it's very challenging for me. As
+                  a software engineer, I like to write code as a simply and
+                  functionally that perhaps can increase the performance in
+                  building some software-apps. Also this is one of my experience
+                  that I got during became software engineer.
                 </p>
               </div>
             </div>
@@ -250,6 +249,50 @@ export default class About extends Component {
                       </p>
                     </div>
                   </div>
+                  <div className="col-6">
+                    <div className="count-box mt-0">
+                      <FontAwesomeIcon
+                        icon={faPhp}
+                        style={{
+                          background: "#802bcff9",
+                          borderRadius: "50px",
+                          height: "48px",
+                          width: "48px",
+                          fontSize: "24px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                        }}
+                      ></FontAwesomeIcon>
+                      {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
+                      <p>
+                        <b>PHP</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="count-box mt-0">
+                      <FontAwesomeIcon
+                        icon={faLaravel}
+                        style={{
+                          background: "#ec8251",
+                          borderRadius: "50px",
+                          height: "48px",
+                          width: "48px",
+                          fontSize: "24px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                        }}
+                      ></FontAwesomeIcon>
+                      {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
+                      <p>
+                        <b>Laravel</b>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -262,26 +305,6 @@ export default class About extends Component {
                   </div>
                 </div>
                 <div className="row">
-                  {/* <div className="col-6">
-                                    <div className="count-box mt-0">
-                                    <FontAwesomeIcon icon={faLaravel} style={{ 
-                                            background: '#FF6E65',
-                                            borderRadius: '50px',
-                                            height: '48px',
-                                            width: '48px',
-                                            fontSize: '24px',
-                                            display: 'inline-flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'center',
-                                            color: 'white'
-
-                                        }}></FontAwesomeIcon>
-                                        {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
-                  {/* <p>
-                                            <b>Laravel</b>
-                                        </p>
-                                    </div>
-                                </div> */}
                   {/* <div className="col">
                                     <div className="count-box mt-0">
                                         <FontAwesomeIcon icon={faNodeJs} style={{ 
@@ -363,9 +386,9 @@ export default class About extends Component {
                   <div className="col-6">
                     <div className="count-box mt-0">
                       <FontAwesomeIcon
-                        icon={faCompassDrafting}
+                        icon={faGithub}
                         style={{
-                          background: "#6096c6",
+                          background: "#000000",
                           borderRadius: "50px",
                           height: "48px",
                           width: "48px",
@@ -379,31 +402,7 @@ export default class About extends Component {
                       ></FontAwesomeIcon>
                       {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
                       <p>
-                        <b>Wireframing</b>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-6">
-                    <div className="count-box mt-0">
-                      <FontAwesomeIcon
-                        icon={faPlayCircle}
-                        style={{
-                          background: "#26a35a",
-                          borderRadius: "50px",
-                          height: "48px",
-                          width: "48px",
-                          fontSize: "24px",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          color: "white",
-                        }}
-                        size="xs"
-                      ></FontAwesomeIcon>
-                      {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
-                      <p>
-                        <b>Protoyping</b>
+                        <b>Github</b>
                       </p>
                     </div>
                   </div>
@@ -439,7 +438,7 @@ export default class About extends Component {
           <div className="container" data-aos="fade-up">
             <div className="section-title">
               <h2>Soft Skills</h2>
-              <p>Here are a few soft skills.</p>
+              <p>Here are some of my soft skills that I'm very good at.</p>
             </div>
 
             <div className="row">
