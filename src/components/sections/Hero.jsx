@@ -22,7 +22,7 @@ export default class Hero extends Component {
     return (
       <section
         id="hero"
-        style={{ backgroundImage: "url(/assets/img/streetViewlPasya.jpg)" }}
+        style={{ backgroundImage: "url(/assets/img/linkedin_psy-profile.jpg)" }}
         className="d-flex flex-column justify-content-center"
       >
         <div className="container" data-aos="zoom-in" data-aos-delay="150">
@@ -64,7 +64,7 @@ export default class Hero extends Component {
               <i className="bx bxl-github"></i>
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/m-c-pasya-b780a8267/"
               className="linkedin"
               target={"_blank"}
               rel={["noopener noreferrer"]}

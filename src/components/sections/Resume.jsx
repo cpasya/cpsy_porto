@@ -54,53 +54,78 @@ export default class Resume extends Component {
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
                   <h4>Junior Web Developer</h4>
-                  <h5>
-                    <i className="">now</i>
-                  </h5>
+                  <h5>August 2022 - November 2022</h5>
                   <p>
-                    <em>PT Bangsawan Cyberindo</em>
+                    <em>at PT Bangsawan Cyberindo Indonesia</em>
                   </p>
-                  <p>Being worked on :</p>
                   <ul>
-                    <li>Developing and/or Maintenance Back-Office Pannel</li>
+                    <li>Developed a Back-Office Pannel</li>
                     <li>
-                      Developing and/or Maintenance Market-Place website,
-                      contain: e-commerce app, auction app, etc.
+                      Assisted the development team in maintaining Marketplace
+                      website.
+                    </li>
+                  </ul>
+                </div>
+                <div className="resume-item">
+                  <h4>FrontEnd Developer</h4>
+                  <h5>November 2022 - September 2023</h5>
+                  <p>
+                    <em>at PT Bangsawan Cyberindo Indonesia</em>
+                  </p>
+                  <ul>
+                    <li>
+                      Utilized HTML, CSS, JavaScript Library (React.js), and PHP
+                      Framework (Laravel) to create Main responsive landing page
+                      for the Marketplace application.
+                    </li>
+                    <li>
+                      Assisted the development team in maintaining the 8 apps
+                      that are part of the Marketplace application.
+                    </li>
+                    <li>
+                      Implemented frontend technical solutions to meet project
+                      requirements for the creation of the Marketplace
+                      application.
+                    </li>
+                    <li>
+                      Partnered with backend developer to develop and maintain
+                      Admin Panel using React.js and Laravel, also Integrated a
+                      Restful API (CRUD) from the backend using Insomnia or
+                      Postman.
+                    </li>
+                    {/* <li>
+                      Designed an Admin Panel for 8 apps that are part of the
+                      Marketplace application using Figma and Ant Design.
+                    </li> */}
+                    <li>
+                      Achievments :
+                      <ol>
+                        <li>
+                          Developed a main responsive landing page for the
+                          Marketplace application.
+                        </li>
+                        <li>
+                          Designed and Developed an Admin Panel for 8 apps that
+                          are part of the Marketplace application.
+                        </li>
+                        <li>Developed a CRM System as a team</li>
+                      </ol>
                     </li>
                   </ul>
                 </div>
                 {/* <div className="resume-item">
-                        <h4>Senior Web Developer</h4>
-                        <h5>2019 - February 2022</h5>
-                        <p><em>PT Alfath Teknologi Kreatif</em></p>
-                        <ul>
-                            <li>Develope and/or Maintence Given Projects and Product</li>
-                            <li>Communicate with Client to discuss what and how the application will be built by him</li>
-                            <li>Coordinate with Team who develop the application</li>
-                            <li>Achievments : 
-                                <ol>
-                                    <li>
-                                        Develope Hospitalty Information System V2.0 (Product)
-                                    </li>
-                                    <li>
-                                        Develope User Booking for Hospitalty Information System (Product)
-                                    </li>
-                                    <li>
-                                        Develope CRM System as a team
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="resume-item">
-                        <h4>Web Developer</h4>
-                        <h5>Maret 2022 - September 2022</h5>
-                        <p><em>PT Griya Depo Nusantara</em></p>
-                        <ul>
-                            <li>Develope and Maintence Product</li>
-                            <li>Achievment : Develope E-Commerce System V1.0 as a team</li>
-                        </ul>
-                    </div> */}
+                  <h4>Web Developer</h4>
+                  <h5>Maret 2022 - September 2022</h5>
+                  <p>
+                    <em>PT Griya Depo Nusantara</em>
+                  </p>
+                  <ul>
+                    <li>Develope and Maintence Product</li>
+                    <li>
+                      Achievment : Develope E-Commerce System V1.0 as a team
+                    </li>
+                  </ul>
+                </div> */}
               </div>
             </div>
           </div>

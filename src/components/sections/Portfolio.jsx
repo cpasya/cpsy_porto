@@ -142,24 +142,24 @@ export default class Portfolio extends Component {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="\assets\img\portfolio\8220.jpg"
+                    src="\assets\img\landing-page-keywae.jpg"
                     className="img-fluid"
                     alt=""
                   />
                   <div className="portfolio-info">
-                    <h4>E-Commerce System</h4>
+                    <h4>Marketplace app</h4>
                     <p>
                       August 2022
                       <br />
-                      <span style={{ fontSize: "10px" }}>
+                      {/* <span style={{ fontSize: "10px" }}>
                         Due some reasons{" "}
                         <span className="text-danger">can't show off</span> the
                         project preview.
-                      </span>
+                      </span> */}
                     </p>
                     <div className="portfolio-links">
                       <a
-                        href="\assets\img\portfolio\8220.jpg"
+                        href="\assets\img\landing-page-keywae.jpg"
                         data-gallery="portfolioGallery"
                         className="portfolio-lightbox"
                         title="App 3"

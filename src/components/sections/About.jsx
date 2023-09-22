@@ -54,19 +54,19 @@ export default class About extends Component {
           <div className="container" data-aos="fade-up">
             <div className="section-title">
               <h2>About</h2>
-              <p>
+              {/* <p>
                 Hello, I'm Pasya. My relationship with Technology started when I
                 was in senior high school, specifically when I play games almost
                 every time. Grateful, I became Programmer now, that proficient
                 in UI/UX and Front-End Developer for a year. I really enjoyed
                 when designing/developing Front Page of the apps.
-              </p>
+              </p> */}
             </div>
             <br />
             <div className="row">
               <div className="col-lg-4">
                 <img
-                  src="/assets/img/gwKece.jpg"
+                  src="/assets/img/linkedin_psy-profile.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -82,15 +82,15 @@ export default class About extends Component {
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Age:</strong> <span>-</span>
+                        <strong>Age:</strong> <span>21</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Phone:</strong> <span>08311734xxxx</span>
+                        <strong>Phone:</strong> <span>(+62)877-2372-6501</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>City:</strong> <span>West Java, Indonesia</span>
+                        <strong>City:</strong> <span>Bogor, Indonesia</span>
                       </li>
                     </ul>
                   </div>
@@ -128,7 +128,7 @@ export default class About extends Component {
                     </ul>
                   </div>
                 </div>
-                <p className="mt-5">
+                {/* <p className="mt-5">
                   I also often buy some courses to levelling up my skill.
                   Perhaps some day, I can mastering DevOps Skills and others
                   Back-End Technologies because it's very challenging for me. As
@@ -136,6 +136,15 @@ export default class About extends Component {
                   functionally that perhaps can increase the performance in
                   building some software-apps. Also this is one of my experience
                   that I got during became software engineer.
+                </p> */}
+                <p className="mt-5">
+                  I'm a person who likes discovering something new and eager to
+                  learn many new things to grow and expand my skill set,
+                  interested in the topics of technology, web or app
+                  development, and visual design. Specialize in front-end
+                  development for a year and always keep up-to-date with the
+                  latest design and technology trends to create engaging user
+                  interfaces and user experiences.
                 </p>
               </div>
             </div>
