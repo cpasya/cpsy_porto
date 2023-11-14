@@ -21,7 +21,7 @@ export default class Resume extends Component {
 
             <div className="row">
               <div className="col-lg-6">
-                <h3 className="resume-title">Education</h3>
+                <h3 className="resume-title">Certificate</h3>
                 {/* <div className="resume-item">
                             <h4>Informatic Engineering</h4>
                             <h5>2015 - 2020</h5>
@@ -32,9 +32,9 @@ export default class Resume extends Component {
                   <h5>Juny 2022 - July 2022</h5>
                   <p>
                     <em>
-                      Mengimplementasikan pemrograman terstruktur berorientasi
-                      objek,menggunakan library atau komponen pre existing dalam
-                      pembuatan website e commerce sebagai desainer web{" "}
+                      Applying structured object-oriented programming, using
+                      pre-existing libraries or components in creating
+                      e-commerce websites as a web designer
                       <b>(React)</b>
                     </em>
                   </p>
@@ -98,7 +98,7 @@ export default class Resume extends Component {
                       Marketplace application using Figma and Ant Design.
                     </li> */}
                     <li>
-                      Achievments :
+                      Achievements :
                       <ol>
                         <li>
                           Developed a main responsive landing page for the
@@ -113,19 +113,22 @@ export default class Resume extends Component {
                     </li>
                   </ul>
                 </div>
-                {/* <div className="resume-item">
-                  <h4>Web Developer</h4>
-                  <h5>Maret 2022 - September 2022</h5>
+                <div className="resume-item">
+                  <h4>Software Developer</h4>
+                  <h5>Oktober 2023 - Present</h5>
                   <p>
-                    <em>PT Griya Depo Nusantara</em>
+                    <em>
+                      at Directorate of Airworthiness and Aircraft Operations
+                    </em>
                   </p>
                   <ul>
-                    <li>Develope and Maintence Product</li>
                     <li>
-                      Achievment : Develope E-Commerce System V1.0 as a team
+                      Develop and maintain all existing applications
+                      {/* (about ±10 apps) */}
                     </li>
+                    <li>...</li>
                   </ul>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

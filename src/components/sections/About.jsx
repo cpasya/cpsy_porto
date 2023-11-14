@@ -66,7 +66,7 @@ export default class About extends Component {
             <div className="row">
               <div className="col-lg-4">
                 <img
-                  src="/assets/img/linkedin_psy-profile.jpg"
+                  src="/assets/img/profile_linkedin_pasya_cropped.jpg"
                   className="img-fluid"
                   alt=""
                 />

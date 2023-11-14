@@ -22,7 +22,9 @@ export default class Hero extends Component {
     return (
       <section
         id="hero"
-        style={{ backgroundImage: "url(/assets/img/linkedin_psy-profile.jpg)" }}
+        style={{
+          backgroundImage: "url(/assets/img/logo-dinas-perhubungan-dishub.png)",
+        }}
         className="d-flex flex-column justify-content-center"
       >
         <div className="container" data-aos="zoom-in" data-aos-delay="150">
