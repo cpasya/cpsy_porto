@@ -50,10 +50,10 @@ export default class FooterComp extends Component {
             </strong>
             . All Rights Reserved
           </div>
-          <div className="credits">
+          {/* <div className="credits">
             Template Designed by{" "}
             <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+          </div> */}
         </div>
       </footer>
     );

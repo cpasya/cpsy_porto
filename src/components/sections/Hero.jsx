@@ -8,7 +8,7 @@ export default class Hero extends Component {
     setTimeout(() => Aos.init(), 500);
 
     let typed = new Typed("#typed", {
-      strings: ["Front-End Developer", "UI/UX Designer"],
+      strings: ["Software Developer", "FrontEnd Developer", "UI/UX Designer"],
       typeSpeed: 50,
       backDelay: 1000,
       loop: true,
