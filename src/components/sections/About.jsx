@@ -80,10 +80,10 @@ export default class About extends Component {
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
-                      <li>
+{/*                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
                         <strong>Age:</strong> <span>21</span>
-                      </li>
+                      </li> */}
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
                         <strong>Phone:</strong> <span>(+62)877-2372-6501</span>
