@@ -8,7 +8,7 @@ export default class Hero extends Component {
     setTimeout(() => Aos.init(), 500);
 
     let typed = new Typed("#typed", {
-      strings: ["Software Developer", "FrontEnd Developer", "UI/UX Designer"],
+      strings: ["Software Developer", "Web Developer", "UI/UX Designer"],
       typeSpeed: 50,
       backDelay: 1000,
       loop: true,
@@ -23,7 +23,8 @@ export default class Hero extends Component {
       <section
         id="hero"
         style={{
-          backgroundImage: "url(/assets/img/logo-dinas-perhubungan-dishub.png)",
+          backgroundImage: "url(/assets/img/tanjakan13_day_psy.jpg)",
+          width: "100%",
         }}
         className="d-flex flex-column justify-content-center"
       >

@@ -57,7 +57,7 @@ export default class Portfolio extends Component {
                         href="/assets/img/portfolio/sr.jpeg"
                         data-gallery="portfolioGallery"
                         className="portfolio-lightbox"
-                        title="App 1"
+                        title="Hospitality Information System App"
                       >
                         <i className="bx bx-plus"></i>
                       </a>
@@ -90,7 +90,7 @@ export default class Portfolio extends Component {
                         href="\assets\img\portfolio\kl2.png"
                         data-gallery="portfolioGallery"
                         className="portfolio-lightbox"
-                        title="App 2"
+                        title="Catalog Products App"
                       >
                         <i className="bx bx-plus"></i>
                       </a>
@@ -122,7 +122,7 @@ export default class Portfolio extends Component {
                         href="\assets\img\portfolio\dst.png"
                         data-gallery="portfolioGallery"
                         className="portfolio-lightbox"
-                        title="Card 2"
+                        title="Membership Management System App"
                       >
                         <i className="bx bx-plus"></i>
                       </a>
@@ -162,7 +162,7 @@ export default class Portfolio extends Component {
                         href="\assets\img\landing-page-keywae.jpg"
                         data-gallery="portfolioGallery"
                         className="portfolio-lightbox"
-                        title="App 3"
+                        title="Marketplace app"
                       >
                         <i className="bx bx-plus"></i>
                       </a>

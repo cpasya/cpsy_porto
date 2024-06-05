@@ -66,7 +66,7 @@ export default class About extends Component {
             <div className="row">
               <div className="col-lg-4">
                 <img
-                  src="/assets/img/profile_linkedin_pasya_cropped.jpg"
+                  src="/assets/img/psy-nobg-crop.png"
                   className="img-fluid"
                   alt=""
                 />
@@ -648,7 +648,7 @@ export default class About extends Component {
                     </div> */}
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center"
+                className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center mb-3 mb-md-3 mb-lg-0"
                 data-aos="zoom-in"
                 data-aos-delay="100"
               >
@@ -675,7 +675,7 @@ export default class About extends Component {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center"
+                className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center mb-3 mb-md-3 mb-lg-0"
                 data-aos="zoom-in"
                 data-aos-delay="100"
               >
@@ -702,7 +702,7 @@ export default class About extends Component {
               </div>
 
               <div
-                className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center"
+                className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center mb-3 mb-md-3 mb-lg-0"
                 data-aos="zoom-in"
                 data-aos-delay="100"
               >

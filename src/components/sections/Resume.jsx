@@ -49,17 +49,66 @@ export default class Resume extends Component {
                     </a>
                   </p>
                 </div>
+                <div className="resume-item">
+                  <h4>Certificate of Completion - React 18 and Redux</h4>
+                  <h5>November 2023</h5>
+                  <p>
+                    <em>
+                      Certificate by Udemy for mastering React 18 and Redux.
+                    </em>
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.udemy.com/certificate/UC-2c6fc062-45f7-445a-adc5-7f653028784f/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", color: "blue" }}
+                    >
+                      <Button primary="true">Certificate</Button>
+                    </a>
+                  </p>
+                </div>
+                <div className="resume-item">
+                  <h4>
+                    Certificate for Web & Mobile Designer: UI/UX, Figma, and
+                    more
+                  </h4>
+                  <h5>November 2023</h5>
+                  <p>
+                    <em>
+                      Certificate by Udemy for mastering Web & Mobile Designer
+                      UI/UX, using Figma, Adobe Photoshop, and more.
+                    </em>
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.udemy.com/certificate/UC-c18f7af0-f7f4-4a0b-ab6c-52863669ce6c/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", color: "blue" }}
+                    >
+                      <Button primary="true">Certificate</Button>
+                    </a>
+                  </p>
+                </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-4 mt-md-0 mt-lg-0">
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
                   <h4>Junior Web Developer</h4>
                   <h5>August 2022 - November 2022</h5>
+                  <p className="">
+                    <img
+                      src="/assets/img/bsci.jpg"
+                      alt=""
+                      className="img-fluid w-25 h-25"
+                    />
+                  </p>
                   <p>
                     <em>at PT Bangsawan Cyberindo Indonesia</em>
                   </p>
                   <ul>
-                    <li>Developed a Back-Office Pannel</li>
+                    <li>Developed a Back Office Pannel</li>
                     <li>
                       Assisted the development team in maintaining Marketplace
                       website.
@@ -69,6 +118,13 @@ export default class Resume extends Component {
                 <div className="resume-item">
                   <h4>FrontEnd Developer</h4>
                   <h5>November 2022 - September 2023</h5>
+                  <p className="">
+                    <img
+                      src="/assets/img/bsci.jpg"
+                      alt=""
+                      className="img-fluid w-25 h-25"
+                    />
+                  </p>
                   <p>
                     <em>at PT Bangsawan Cyberindo Indonesia</em>
                   </p>
@@ -115,7 +171,14 @@ export default class Resume extends Component {
                 </div>
                 <div className="resume-item">
                   <h4>Software Developer</h4>
-                  <h5>Oktober 2023 - Present</h5>
+                  <h5>October 2023 - Present</h5>
+                  <p className="">
+                    <img
+                      src="/assets/img/daao.png"
+                      alt=""
+                      className="img-fluid w-25 h-25"
+                    />
+                  </p>
                   <p>
                     <em>
                       at Directorate of Airworthiness and Aircraft Operations
@@ -126,7 +189,14 @@ export default class Resume extends Component {
                       Develop and maintain all existing applications
                       {/* (about ±10 apps) */}
                     </li>
-                    <li>...</li>
+                    <li>
+                      Create a library application using RFID technology
+                      combined with Laravel
+                    </li>
+                    <li>
+                      Served as a data analyst on the Indonesian aviation permit
+                      application called PEL Online
+                    </li>
                   </ul>
                 </div>
               </div>

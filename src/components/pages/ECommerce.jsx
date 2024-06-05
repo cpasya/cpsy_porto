@@ -38,11 +38,15 @@ class ECommerce extends Component {
                 </div>
                 <div className="portfolio-description">
                   <h2>About Portfolio</h2>
-                  {/* <p class="text-justify" style={{ textAlign: "justify" }}>
-                        DUE SOME REASONS{" "}
-                        <span className="text-danger">CAN'T SHOW OFF</span> THE
-                        PROJECT PREVIEW.
-                      </p> */}
+                  <p class="text-justify" style={{ textAlign: "justify" }}>
+                    'Keywae' is a business entity that aims to create business
+                    and employment opportunities which in its broad concept
+                    involves empowering existing elements in society within a
+                    business corridor for achieving economic prosperity based on
+                    mutual cooperation, by using roles - contributions in the
+                    form of digital technology.
+                  </p>
+                  <br />
                   <Button variant="primary">
                     {/* <a
                           href="https://drive.google.com/drive/folders/1Er-jIp6qti5Nah6GvJPbwZ_bGNOTK5U8?usp=sharing"
