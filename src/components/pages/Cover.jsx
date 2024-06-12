@@ -3,21 +3,21 @@ import HeroBabel from "../sections/HeroBabel/HeroBabel";
 import Hero from "../sections/Hero";
 
 const Cover = () => {
-  const [mobile, setMobile] = useState(undefined);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 576);
 
   useEffect(() => {
-    const updateMobile = () => {
-      setMobile(window.innerWidth < 576 ? true : false);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 576);
     };
 
-    updateMobile();
-    window.addEventListener("resize", updateMobile);
+    window.addEventListener("resize", handleResize);
+
     return () => {
-      window.removeEventListener("resize", updateMobile);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  return <div className="">{mobile ? <Hero /> : <HeroBabel />}</div>;
+  return <div className="">{isMobile ? <Hero /> : <HeroBabel />}</div>;
 };
 
 export default Cover;
