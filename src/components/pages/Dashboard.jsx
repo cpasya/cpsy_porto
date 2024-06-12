@@ -1,57 +1,58 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { GContext } from '../contexts/GlobalContext';
+import { GContext } from "../contexts/GlobalContext";
 
 //components
-import HeaderComp from './../main/HeaderComp';
-import FooterComp from './../main/FooterComp';
-import Hero from './../sections/Hero';
-import About from './../sections/About';
-import Resume from '../sections/Resume';
-import Portfolio from '../sections/Portfolio';
+import HeaderComp from "./../main/HeaderComp";
+import FooterComp from "./../main/FooterComp";
+import Hero from "./../sections/Hero";
+import About from "./../sections/About";
+import Resume from "../sections/Resume";
+import Portfolio from "../sections/Portfolio";
+import HeroBabel from "../sections/HeroBabel/HeroBabel";
+import Cover from "./Cover";
 
 class Dashboard extends Component {
-
-  componentDidMount(){
-    console.log('changeState From DB')
+  componentDidMount() {
+    console.log("changeState From DB");
 
     // setTimeout(()=>{
-      // this.context.changeState({
-      //   root : {backgroundColor : '#fff'}
-      // })
+    // this.context.changeState({
+    //   root : {backgroundColor : '#fff'}
+    // })
 
-      // this.context.changeState({
-      //   root : {backgroundColor : '#fff'}
-      // })
+    // this.context.changeState({
+    //   root : {backgroundColor : '#fff'}
+    // })
     // }, 500)
-
   }
 
-  componentWillUnmount(){
+  componentWillUnmount() {
     // this.context.changeState({
     //   root : {backgroundColor : '#14bdac'}
     // })
   }
 
-    render() {
-        return (
-            <React.Fragment>
+  render() {
+    return (
+      <React.Fragment>
+        {/* Sections */}
+        {/* <Hero /> */}
+        {/* <HeroBabel /> */}
+        <Cover />
 
-              {/* Sections */}
-              <Hero />
+        <main id="main">
+          <About />
+          <Resume />
+          <Portfolio />
+        </main>
 
-              <main id="main">
-                <About />
-                <Resume />
-                <Portfolio />
-              </main>
-
-              <FooterComp />
-            </React.Fragment>
-        );
-    }
+        <FooterComp />
+      </React.Fragment>
+    );
+  }
 }
 
-Dashboard.contextType = GContext
+Dashboard.contextType = GContext;
 
 export default Dashboard;

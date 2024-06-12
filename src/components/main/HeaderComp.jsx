@@ -1,16 +1,17 @@
-import React, { Component } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-
+import React, { Component } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 export default class HeaderComp extends Component {
-
   render() {
     return (
-        <header id="header" className="d-flex flex-column justify-content-center">
+      <header id="header" className="d-flex flex-column justify-content-center">
         <nav id="navbar" className="navbar nav-menu" data-aos="fade-up">
           <ul>
             <li>
-              <Link to="/#hero" className="nav-link scrollto active">
+              <Link
+                to={window.innerWidth < 576 ? "/#hero" : "/#heroBabel"}
+                className="nav-link scrollto active"
+              >
                 <i className="bx bx-home"></i>
                 <span>Home</span>
               </Link>
@@ -45,11 +46,9 @@ export default class HeaderComp extends Component {
                 <span>Contact</span>
               </a>
             </li> */}
-
           </ul>
         </nav>
-
       </header>
-    )
+    );
   }
 }

@@ -1,0 +1,29 @@
+.hoverme {
+  position: absolute;
+  top: 25%;
+  /* list-style: none; */
+  color: #111;
+  animation: simple 1s linear infinite;
+  background: none;
+  border: none;
+  outline: none;
+  width: 140px;
+}
+
+@keyframes simple {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hoverme {
+    top: 9%;
+  }
+}

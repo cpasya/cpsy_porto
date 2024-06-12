@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ThansWord from "../UI/ThanksUI/thanks";
 
 export default class FooterComp extends Component {
   render() {
@@ -44,9 +45,10 @@ export default class FooterComp extends Component {
             </a>
           </div>
           <div className="copyright">
-            &copy; Copyright{" "}
+            {/* <ThansWord /> */}
+            &copy; 2024 Copyright{" "}
             <strong>
-              <span>MyResume</span>
+              <span>CPasya</span>
             </strong>
             . All Rights Reserved
           </div>

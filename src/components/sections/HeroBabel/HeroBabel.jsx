@@ -2,8 +2,10 @@ import React, { Component } from "react";
 
 import Aos from "aos";
 import Typed from "typed.js";
+import "./HeroBabel.css";
+import SpotlightEffect from "./spotlight";
 
-export default class Hero extends Component {
+export default class HeroBabel extends Component {
   componentDidMount() {
     setTimeout(() => Aos.init(), 500);
 
@@ -21,23 +23,16 @@ export default class Hero extends Component {
   render() {
     return (
       <section
-        id="hero"
-        style={{
-          backgroundImage: "url(/assets/img/gwKece.jpg)",
-          width: "100%",
-        }}
-        className="d-flex flex-column justify-content-center"
+        id="heroBabel"
+        // style={{
+        //   backgroundImage: "url(/assets/img/tanjakan13_day_psy.jpg)",
+        //   width: "100%",
+        // }}
+        // className="d-flex flex-column justify-content-center"
+        className="d-flex flex-column justify-content-center hero"
       >
-        <div className="container" data-aos="zoom-in" data-aos-delay="150">
-          <h1>Muhammad Chaerul Pasya</h1>
-          <p>
-            I'm{" "}
-            <span
-              className="typed"
-              id="typed"
-              data-typed-items=" a Developer, Front-End Engineering"
-            ></span>{" "}
-          </p>
+        <div className="hero-title container">
+          Muhammad Chaerul Pasya
           <div className="social-links">
             {/* <a href="#" className="twitter">
                         <i className="bx bxl-twitter"></i>
@@ -76,7 +71,23 @@ export default class Hero extends Component {
             </a>
           </div>
         </div>
+        <h1 className="hero-subtitle container">
+          <p>
+            I'm{" "}
+            <span
+              className="typed"
+              id="typed"
+              data-typed-items=" a Developer, Front-End Engineering"
+            ></span>
+          </p>
+        </h1>
+
+        <div className="spotlight">
+          <SpotlightEffect />
+        </div>
       </section>
     );
   }
 }
+
+<script></script>;
