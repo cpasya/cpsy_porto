@@ -3,7 +3,7 @@
   top: 25%;
   /* list-style: none; */
   color: #111;
-  animation: simple 1s linear infinite;
+  animation: simple 2s linear infinite;
   background: none;
   border: none;
   outline: none;
@@ -25,5 +25,53 @@
 @media only screen and (max-width: 600px) {
   .hoverme {
     top: 9%;
+  }
+}
+
+.arrow-blink {
+  animation: blink 4s linear infinite;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-from-left {
+  animation: slideFromLeft 1s ease-in-out;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.slide-from-right {
+  animation: slideFromRight 0.5s ease-in-out;
+}
+
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

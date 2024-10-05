@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { select } from "../../mainFn/mainFn";
 import Aos from "aos";
 import { faPlay, faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+import Button1 from "../UI/button/button1";
 
 export default class Portfolio extends Component {
   render() {
@@ -220,6 +221,10 @@ export default class Portfolio extends Component {
                 </div>
               </div>
             </div>
+          </div>
+          <br />
+          <div className="d-flex flex-row justify-content-center items-center">
+            <Button1 href="https://portofolio-pasya.vercel.app/" />
           </div>
         </section>
         {/* 

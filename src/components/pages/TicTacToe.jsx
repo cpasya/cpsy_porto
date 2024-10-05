@@ -38,7 +38,7 @@ export default class TicTacToe extends Component {
     // must initialized when call constructor
     super(props);
 
-    console.log("el");
+    // console.log("el");
 
     // props.context.changeState({
     //   root : {backgroundColor : '#14bdac'}
@@ -84,7 +84,7 @@ export default class TicTacToe extends Component {
   matchWinner = () => {
     console.warn("start match winner");
 
-    console.log(this.state);
+    // console.log(this.state);
 
     const col = this.state.col;
     let playOff = this.state.playOff;

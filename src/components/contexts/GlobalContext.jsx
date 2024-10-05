@@ -1,56 +1,58 @@
-import React, { Component, createContext } from 'react';
+import React, { Component, createContext } from "react";
 
-const GContext = createContext(
-    // {
-    //     root : {
-    //         backgroundColor : '#fff'
-    //     }
-    // }
-)
+const GContext = createContext();
+// {
+//     root : {
+//         backgroundColor : '#fff'
+//     }
+// }
 // console.log(GContext)
 
 class GlobalProvider extends Component {
-    state = {
-        root : {
-            backgroundColor : '#fff'
-        }
-    };
+  state = {
+    root: {
+      backgroundColor: "#fff",
+    },
+  };
 
-    changeState = (data)=>{
-        console.log('changeState', data)
+  changeState = (data) => {
+    // console.log('changeState', data)
 
-        this.setState(()=> {
-            console.log('setState', data)
+    this.setState(() => {
+      // console.log('setState', data)
 
-            return data
-            // return {
-            //     root : {
-            //         backgroundColor : '#14bdac'
-            //     }
-            // }
-        })
+      return data;
+      // return {
+      //     root : {
+      //         backgroundColor : '#14bdac'
+      //     }
+      // }
+    });
 
-        // console.log()
-        this.changeBgRoot()
-    }
+    // console.log()
+    this.changeBgRoot();
+  };
 
-    changeBgRoot = ()=>{
-        console.log('changeBgRoot', this.state)
-        console.log(document.getElementById('root'))
+  changeBgRoot = () => {
+    // console.log("changeBgRoot", this.state);
+    // console.log(document.getElementById("root"));
 
-        document.getElementById('root').style.backgroundColor = this.state.root.backgroundColor;
-        // document.getElementById('root').style.backgroundColor = '#000000';
-    }
-    
-    render() {
-        console.log(this.state)
+    document.getElementById("root").style.backgroundColor =
+      this.state.root.backgroundColor;
+    // document.getElementById('root').style.backgroundColor = '#000000';
+  };
 
-        return (
-            <GContext.Provider value={{ ...this.state, changeState: this.changeState }}>
-                {this.props.children}
-            </GContext.Provider>
-        );
-    }
+  render() {
+    // console.log(this.state);
+
+    return (
+      <GContext.Provider
+        value={{ ...this.state, changeState: this.changeState }}
+      >
+        {this.props.children}
+      </GContext.Provider>
+    );
+  }
 }
 
 // export default GlobalContext;
@@ -60,5 +62,3 @@ class GlobalProvider extends Component {
 const GlobalConsumer = GContext.Consumer;
 // console.log(GlobalConsumer)
 export { GlobalProvider, GlobalConsumer, GContext };
-
-

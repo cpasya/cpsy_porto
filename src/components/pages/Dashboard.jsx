@@ -14,13 +14,11 @@ import Cover from "./Cover";
 
 class Dashboard extends Component {
   componentDidMount() {
-    console.log("changeState From DB");
-
+    // console.log("changeState From DB");
     // setTimeout(()=>{
     // this.context.changeState({
     //   root : {backgroundColor : '#fff'}
     // })
-
     // this.context.changeState({
     //   root : {backgroundColor : '#fff'}
     // })

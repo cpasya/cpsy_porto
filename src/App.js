@@ -1,20 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import logo from './logo.svg';
+import logo from "./logo.svg";
 
-import './App.css';
+import "./App.css";
 
 //component
-import HeaderComp from './components/main/HeaderComp';
+import HeaderComp from "./components/main/HeaderComp";
 
 //page
-import Dashboard from './components/pages/Dashboard';
-import HIS from './components/pages/HIS';
-import TicTacToe from './components/pages/TicTacToe';
-import Membership from './components/pages/Membership';
-import Catalog from './components/pages/Catalog';
-import ECommerce from './components/pages/ECommerce';
+import Dashboard from "./components/pages/Dashboard";
+import HIS from "./components/pages/HIS";
+import TicTacToe from "./components/pages/TicTacToe";
+import Membership from "./components/pages/Membership";
+import Catalog from "./components/pages/Catalog";
+import ECommerce from "./components/pages/ECommerce";
 
 function App() {
   return (
@@ -30,16 +30,14 @@ function App() {
 
           {/* Page */}
           <Route path="/his" element={<HIS></HIS>}></Route>
-          <Route path="/catalog" element={<Catalog />} ></Route>
-          <Route path="/membership" element={<Membership />} ></Route>
+          <Route path="/catalog" element={<Catalog />}></Route>
+          <Route path="/membership" element={<Membership />}></Route>
           <Route path="/tictactoe" element={<TicTacToe coba="hai" />} />
           <Route path="/ecommerce" element={<ECommerce />}></Route>
         </Routes>
-
       </Router>
-      
 
-      { console.log(`%PUBLIC_URL%`) }
+      {/* { console.log(`%PUBLIC_URL%`) } */}
     </React.Fragment>
   );
 }
