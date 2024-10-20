@@ -15,6 +15,7 @@ import TicTacToe from "./components/pages/TicTacToe";
 import Membership from "./components/pages/Membership";
 import Catalog from "./components/pages/Catalog";
 import ECommerce from "./components/pages/ECommerce";
+import Diary from "./components/pages/Diary";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/membership" element={<Membership />}></Route>
           <Route path="/tictactoe" element={<TicTacToe coba="hai" />} />
           <Route path="/ecommerce" element={<ECommerce />}></Route>
+          <Route path="/mini-album" element={<Diary />}></Route>
         </Routes>
       </Router>
 

@@ -34,6 +34,12 @@ export default class HeaderComp extends Component {
                 <span>Portofolio</span>
               </Link>
             </li>
+            <li>
+              <Link to="/mini-album" className="nav-link scrollto">
+                <i className="bx bx-photo-album"></i>
+                <span>My Mini Album</span>
+              </Link>
+            </li>
             {/* <li>
               <a href="#services" className="nav-link scrollto">
                 <i className="bx bx-server"></i>
