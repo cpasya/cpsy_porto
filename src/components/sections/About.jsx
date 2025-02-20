@@ -17,6 +17,7 @@ import {
   faPlaystation,
   faFigma,
   faAd,
+  faJava,
 } from "@fortawesome/free-brands-svg-icons";
 import styled from "styled-components";
 import {
@@ -82,54 +83,73 @@ export default class About extends Component {
                   below :
                 </p>
                 <div className="row">
-                  <div className="col-lg-6">
-                    <ul>
+                  <div className="col-lg-6 mb-3">
+                    <div>
                       {/* <li>
                         <i className="bi bi-chevron-right"></i>{" "}
                         <strong>Age:</strong> <span>21</span>
                       </li> */}
-                      <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
+                      <p className="justify-content-end">
+                        <i className="bi bi-chevron-right text-primary"></i>{" "}
                         <strong>Phone:</strong> <span>(+62)877-2372-6501</span>
-                      </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
+                      </p>
+                      <p>
+                        <i className="bi bi-chevron-right text-primary"></i>{" "}
                         <strong>City:</strong> <span>Bogor, Indonesia</span>
-                      </li>
-                    </ul>
+                      </p>
+                    </div>
                   </div>
                   <div className="col-lg-6">
-                    <ul>
+                    <div>
                       {/* <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
+                        <i className="bi bi-chevron-right text-primary"></i>{" "}
                         <strong>Degree:</strong> <span>Bachelor</span>
                       </li> */}
-                      <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
+                      <p>
+                        <i className="bi bi-chevron-right text-primary"></i>{" "}
                         <strong>Email:</strong>{" "}
                         <span>
                           <a
-                            style={{ color: "blue", textDecoration: "none" }}
+                            style={{ color: "black", textDecoration: "none" }}
                             href="pasya0129@gmail.com"
                           >
                             pasya0129@gmail.com
                           </a>
                         </span>
-                      </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>
+                      </p>
+                      {/* <p>
+                        <i className="bi bi-chevron-right text-primary"></i>{" "}
                         <strong>Freelance:</strong>{" "}
                         <span>
                           Not Available{" "}
-                          <a href="#" id="question-freelance">
+                          <a className="text-primary" id="question-freelance">
                             {" "}
                             <FontAwesomeIcon
                               icon={faQuestionCircle}
                             ></FontAwesomeIcon>
                           </a>
                         </span>
-                      </li>
-                    </ul>
+                      </p> */}
+                      <p>
+                        <i className="bi bi-chevron-right text-primary"></i>{" "}
+                        <strong>Freelance:</strong>{" "}
+                        <span
+                          style={{
+                            backgroundColor: "green",
+                            color: "white",
+                            padding: "4px 8px",
+                            borderRadius: "12px",
+                            fontSize: "12px",
+                            fontWeight: "bold",
+                            display: "inline-block",
+                            textAlign: "center",
+                            cursor: "none",
+                          }}
+                        >
+                          Available{" "}
+                        </span>
+                      </p>
+                    </div>
                   </div>
                 </div>
                 {/* <p className="mt-5">
@@ -180,7 +200,7 @@ export default class About extends Component {
                 <div className="row">
                   <div className="col text-center">
                     <h5>
-                      <b>Front End Stacks</b>
+                      <b>Full Stacks</b>
                     </h5>
                   </div>
                 </div>
@@ -317,6 +337,53 @@ export default class About extends Component {
                       </p>
                     </div>
                   </div>
+                  <div className="col-6">
+                    <div className="count-box mt-0">
+                      <FontAwesomeIcon
+                        icon={faJava}
+                        style={{
+                          background: "#E56128",
+                          borderRadius: "50px",
+                          height: "48px",
+                          width: "48px",
+                          fontSize: "24px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "white",
+                        }}
+                      ></FontAwesomeIcon>
+                      {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
+                      <p>
+                        <b>Java</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="count-box mt-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                      >
+                        <path
+                          fill="#8bc34a"
+                          d="M43.982,23.635c0.069-4.261-0.891-9.328-2.891-15.273l-1.568-4.662l-2.13,4.433 c-0.114,0.237-0.244,0.469-0.38,0.698C33.514,5.827,28.974,4,24,4C12.954,4,4,12.954,4,24c0,11.046,8.954,20,20,20s20-8.954,20-20 C44,23.877,43.984,23.758,43.982,23.635z"
+                        ></path>
+                        <path
+                          fill="#fff"
+                          d="M39.385 32.558c-3.123 4.302-8.651 4.533-13.854 4.442H18.75h-1.938c4.428-1.593 7.063-1.972 9.754-3.4 5.068-2.665 10.078-8.496 11.121-14.562-1.93 5.836-7.779 10.85-13.109 12.889-3.652 1.393-10.248 2.745-10.248 2.745l-.267-.145C9.573 32.268 9.437 22.214 17.6 18.968c3.574-1.423 6.993-.641 10.854-1.593 4.122-1.012 8.89-4.208 10.83-8.375C41.456 15.667 44.07 26.106 39.385 32.558L39.385 32.558zM15.668 38.445C15.386 38.795 14.955 39 14.505 39c-.823 0-1.495-.677-1.495-1.5s.677-1.5 1.495-1.5c.341 0 .677.118.941.336C16.086 36.855 16.186 37.805 15.668 38.445L15.668 38.445z"
+                        ></path>
+                      </svg>
+                      {/* <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span> */}
+                      <p>
+                        <b>SpringBoot</b>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -373,19 +440,6 @@ export default class About extends Component {
                   </div>
                   <div className="col-6">
                     <div className="count-box mt-0">
-                      {/* <p 
-                        style={{
-                          background: "purple",
-                          borderRadius: "50px",
-                          height: "48px",
-                          width: "48px",
-                          fontSize: "24px",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          color: "white",
-                        }}
-                      ></p> */}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -397,7 +451,7 @@ export default class About extends Component {
                           display: "inline-flex",
                           alignItems: "center",
                           justifyContent: "center",
-                          fontSize: "24px",
+                          fontSize: "34px",
                         }}
                       >
                         <path
@@ -448,7 +502,7 @@ export default class About extends Component {
                         size="xs"
                       ></FontAwesomeIcon>
                       <p>
-                        <b>Node Js</b>
+                        <b>NodeJs</b>
                       </p>
                     </div>
                   </div>
@@ -603,6 +657,85 @@ export default class About extends Component {
                       </svg>
                       <p>
                         <b>PgAdmin</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="count-box mt-0">
+                      <svg
+                        viewBox="0 0 128 128"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style={{
+                          height: "48px",
+                          width: "48px",
+                          fontSize: "24px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                      >
+                        <path
+                          fill="#f37036"
+                          d="M113.117 26.066C92.168-1.062 53.191-6.07 26.062 14.883c-27.125 20.953-32.128 59.93-11.175 87.055 20.957 27.124 59.937 32.124 87.058 11.167 27.114-20.953 32.118-59.918 11.172-87.039Zm0 0"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M91.078 24.164a10.038 10.038 0 0 0-5.781 2.426 10.028 10.028 0 0 0-1.54 13.465 10.028 10.028 0 0 0 13.276 2.715h.002v.001l.156.155a10.63 10.63 0 0 0 1.965-1.45A10.341 10.341 0 0 0 99 27.107v-.002l-8.844 8.789-.156-.155 8.844-8.793a10.038 10.038 0 0 0-7.766-2.78zM79.434 38.551c-4.24-.007-11.163 4.799-28.067 21.703l.084.086c-.092-.032-.185-.035-.185-.035l-6.364 6.308a1.035 1.035 0 0 0 .93 1.762l10.914-2.328a.307.307 0 0 0 .092-.17l.242.25-3.72 3.69h-.18l-22.086 22.26 7.086 6.824a1.254 1.254 0 0 0 1.476.149 1.327 1.327 0 0 0 .645-1.356l-1.035-4.5a.534.534 0 0 1 0-.62 117.285 117.285 0 0 0 26.738-17.583l-4.535-4.537.086-.014-2.69-2.689.172-.174.182.186-.094.091 7.137 7.293v-.003c13.68-12.954 23.39-23.367 20.865-30.375a3.83 3.83 0 0 0-1.107-2.208v.004a3.778 3.778 0 0 0-.483-.306c-.083-.088-.156-.178-.244-.264l-.066.066a3.778 3.778 0 0 0-.582-.29l.289-.292c-1.796-1.6-3.28-2.924-5.5-2.93zM30.94 92.21l-5.171 5.172v.004a1.03 1.03 0 0 0-.457 1.125 1.035 1.035 0 0 0 .921.789l12.672.875-7.965-7.965z"
+                        />
+                        <path
+                          fill="#f37036"
+                          d="M91.95 23.31a11.047 11.047 0 0 0-7.759 3.17 10.988 10.988 0 0 0-2.39 11.641c-4.741-2.03-11.155 1.51-31.106 21.457a.932.932 0 0 0-.037.094 1.242 1.242 0 0 0-.119.062l-6.309 6.364a1.97 1.97 0 0 0-.363 2.324 2.012 2.012 0 0 0 1.707.984l.313-.203 8.424-1.797-4.03 4.067a.873.873 0 0 0-.054.166l-19.75 19.799a.798.798 0 0 0-.192.238l-5.086 5.09a1.967 1.967 0 0 0-.414 2.043 1.995 1.995 0 0 0 1.656 1.265l12.618.88a1.01 1.01 0 0 0 .52-.415.886.886 0 0 0 0-1.035l-.026-.025a2.243 2.243 0 0 0 .705-.58 2.237 2.237 0 0 0 .406-1.876l-.984-4.187a126.725 126.725 0 0 0 26.334-16.861 1.091 1.091 0 0 0 .248.103c.254-.019.492-.128.672-.308 13.55-12.83 21.515-21.622 21.515-28.602a8.03 8.03 0 0 0-.431-2.85 10.957 10.957 0 0 0 3.845.83l-.015.004a11.219 11.219 0 0 0 5.183-1.45.775.775 0 0 0 .004.001.835.835 0 0 0 .617-.055 9.398 9.398 0 0 0 2.07-1.652 10.873 10.873 0 0 0 3.258-7.758 10.873 10.873 0 0 0-3.257-7.758.93.93 0 0 0-.118-.091 11.045 11.045 0 0 0-7.656-3.078zm-.087 1.772a9.27 9.27 0 0 1 5.586 1.914l-8.068 8.117a.84.84 0 0 0-.076.098.83.83 0 0 0-.239.55.832.832 0 0 0 .313.65h.002l6.1 6.1a9.044 9.044 0 0 1-10.028-1.913c-2.586-2.6-3.336-6.504-1.953-9.891 1.383-3.39 4.68-5.605 8.363-5.625zm7.12 3.432a8.87 8.87 0 0 1 2.033 5.674 9.15 9.15 0 0 1-2.688 6.464 9.989 9.989 0 0 1-1.098.895L92.307 36.7l-.963-.963.265-.265 7.373-6.96zm-.366 4.193a.777.777 0 0 0-.55.031.731.731 0 0 0-.36.426.73.73 0 0 0 .05.559 2.226 2.226 0 0 1-.257 2.328.64.64 0 0 0-.195.488c.004.184.07.36.195.492a.58.58 0 0 0 .414 0 .68.68 0 0 0 .672-.207 3.573 3.573 0 0 0 .465-3.777v.004a.777.777 0 0 0-.434-.344zM79.34 39.43a5.584 5.584 0 0 1 3.31 1.226 4.756 4.756 0 0 0-2.681 1.34L57.162 64.701l-4.476-4.476c11.828-11.772 19.06-17.921 23.556-19.936a5.584 5.584 0 0 1 3.098-.86zm3.965 2.96a2.895 2.895 0 0 1 2.043.844 2.786 2.786 0 0 1 .879 2.121 2.869 2.869 0 0 1-.985 2.07l-24.25 21.106-2.617-2.617 22.887-22.68a2.895 2.895 0 0 1 2.043-.843zm2.994 6.698c-1.69 6.702-10.647 15.783-19.987 24.607l-3.777-3.773L86.3 49.088zM51.367 61.547l.274.27 3.513 3.513-9.63 2.06 5.843-5.843zm5.793 5.84.004.004 1.168 1.195a1.086 1.086 0 0 0 .018.084l.078.012.248.254.82.84-5.385.66 3.05-3.05zm3.867 4.076 3.578 3.576A126.992 126.992 0 0 1 38.75 91.695a1.44 1.44 0 0 0-.777 1.653l1.035 4.5a.31.31 0 0 1 0 .363.31.31 0 0 1-.414 0l-6.102-6.152L51.3 72.975l9.728-1.512zm-29.933 21.94.869.814 4.492 4.492-10.016-.648 4.655-4.659z"
+                        />
+                      </svg>
+
+                      <p>
+                        <b>Postman</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="count-box mt-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                        style={{
+                          height: "48px",
+                          width: "48px",
+                          fontSize: "24px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                      >
+                        <defs>
+                          <linearGradient
+                            id="a"
+                            x1="16.181"
+                            x2="16.181"
+                            y1="28.39"
+                            y2="5.61"
+                            gradientTransform="matrix(4 0 0 4 0 -4)"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stop-color="#7400E1" />
+                            <stop offset="1" stop-color="#4000BF" />
+                          </linearGradient>
+                        </defs>
+                        <path
+                          fill="#fff"
+                          d="M64 124.746c33.549 0 60.746-27.197 60.746-60.746 0-33.549-27.197-60.746-60.746-60.746C30.45 3.254 3.254 30.451 3.254 64c0 33.55 27.197 60.746 60.746 60.746z"
+                        />
+                        <path
+                          fill="#4000bf"
+                          d="M64 0C28.654 0 0 28.654 0 64c0 35.346 28.654 64 64 64 35.346 0 64-28.654 64-64 0-35.346-28.654-64-64-64Zm0 6.509c31.752 0 57.492 25.74 57.492 57.491 0 31.752-25.74 57.492-57.492 57.492S6.508 95.752 6.508 64 32.248 6.509 64 6.509z"
+                        />
+                        <path
+                          fill="url(#a)"
+                          d="M64.723 18.44c25.162 0 45.56 20.398 45.56 45.56 0 25.162-20.398 45.56-45.56 45.56-25.161 0-45.559-20.398-45.559-45.56a45.41 45.41 0 0 1 3.427-17.366c3.224 4.391 8.425 7.242 14.29 7.242 9.786 0 17.718-7.932 17.718-17.718 0-5.866-2.85-11.066-7.242-14.29a45.426 45.426 0 0 1 17.366-3.427z"
+                        />
+                      </svg>
+                      <p>
+                        <b>Insomnia</b>
                       </p>
                     </div>
                   </div>

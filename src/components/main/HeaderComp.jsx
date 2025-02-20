@@ -31,15 +31,15 @@ export default class HeaderComp extends Component {
             <li>
               <Link to="/#portfolio" className="nav-link scrollto">
                 <i className="bx bx-book-content"></i>
-                <span>Portofolio</span>
+                <span>Portfolio</span>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/mini-album" className="nav-link scrollto">
                 <i className="bx bx-photo-album"></i>
                 <span>My Mini Album</span>
               </Link>
-            </li>
+            </li> */}
             {/* <li>
               <a href="#services" className="nav-link scrollto">
                 <i className="bx bx-server"></i>

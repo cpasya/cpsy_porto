@@ -79,7 +79,7 @@ export default class About extends Component {
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
-                    <ul>
+                    <ul className="flex">
                       {/* <li>
                         <i className="bi bi-chevron-right"></i>{" "}
                         <strong>Age:</strong> <span>21</span>

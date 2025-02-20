@@ -23,7 +23,10 @@ export default class Hero extends Component {
       <section
         id="hero"
         style={{
-          backgroundImage: "url(/assets/img/gwKece.jpg)",
+          backgroundImage:
+            "url(/assets/img/batam2.jpg), linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
           width: "100%",
         }}
         className="d-flex flex-column justify-content-center"

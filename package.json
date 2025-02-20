@@ -25,6 +25,7 @@
     "sweetalert2": "^11.4.37",
     "tippy.js": "^6.3.7",
     "typed.js": "^2.0.12",
+    "web-porto": "file:",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
