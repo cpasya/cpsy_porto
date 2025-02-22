@@ -7,7 +7,7 @@ const ThansWord = () => {
       rel="stylesheet"
       type="text/css"
     >
-      <span class="render">Thanks for visiting </span>
+      <span class="render">Thanks for visiting !</span>
     </link>
   </div>;
 };
